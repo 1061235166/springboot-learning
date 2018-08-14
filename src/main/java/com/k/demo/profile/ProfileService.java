@@ -22,5 +22,6 @@ public class ProfileService {
 	public void init(){
 		String name = environment.getProperty("name", "213");
 		System.out.println(name);
+
 	}
 }
